@@ -6,7 +6,7 @@ export default function Home() {
       <div className="AndroidLarge1 w-[360px] h-[800px] relative bg-black">
         <div className="Frame10 p-2.5 left-[-1px] top-[436px] absolute" />
         <div className="MainLogo w-[96%] p-2.5 left-[2%] top-[0.5rem] absolute flex-col justify-start items-start gap-2.5 inline-flex">
-          <div className="Frame1 p-2.5 border border-white justify-center items-center gap-2.5 inline-flex">
+          <div className="Frame1 p-2.5 border border-white rounded-[3px] bg-slate-800 justify-center items-center gap-2.5 inline-flex">
             <div className="AnalogousColourWheel text-white text-2xl font-normal font-['Inter']">
               Analogous colour wheel
             </div>
@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className="ColourWheel p-2.5 left-[53px] top-[133px] absolute justify-start items-start gap-2.5 inline-flex">
           <img
-            className="Ellipse1 w-[234px] h-[234px] rounded-full border-4 border-purple-400"
+            className="Ellipse1 w-[234px] h-[234px] rounded-full border-2 border-purple-400"
             src="https://via.placeholder.com/234x234"
           />
         </div>
@@ -30,23 +30,23 @@ export default function Home() {
             <div className="CurrentColour text-white text-[15px] font-normal font-['Inter']">
               Current colour
             </div>
-            <div className="Rectangle1 w-[116px] h-[60px] bg-yellow-300 border border-black" />
+            <div className="Rectangle1 absolute left-2 top-5 w-[116px] h-[60px] bg-yellow-300 border border-black" />
           </div>
-          <div className="ComplimentaryColourOne left-[76px] top-[113px] absolute flex-col justify-start items-center gap-2 flex">
+          <div className="ComplimentaryColourOne left-[114px] top-[113px] absolute flex-col justify-start items-center gap-2 flex">
             <div className="ComplimentaryColourOne text-white text-[15px] font-normal font-['Inter']">
               Complimentary colour one
             </div>
-            <div className="Rectangle2 w-[116px] h-[60px] bg-yellow-200 border border-black" />
+            <div className="Rectangle2 absolute left-2 top-5 w-[116px] h-[60px] bg-yellow-200 border border-black" />
           </div>
-          <div className="ComplimentaryColourTwo left-[76px] top-[209px] absolute flex-col justify-start items-center gap-2 flex">
+          <div className="ComplimentaryColourTwo left-[114px] top-[209px] absolute flex-col justify-start items-center gap-2 flex">
             <div className="ComplimentaryColourTwo text-white text-[15px] font-normal font-['Inter']">
               Complimentary colour two
             </div>
-            <div className="Rectangle3 w-[116px] h-[59px] bg-yellow-600 border border-black" />
+            <div className="Rectangle3 absolute left-[0.5rem] top-5 w-[116px] h-[59px] bg-yellow-600 border border-black" />
           </div>
         </div>
         <div className="RandomiseBtn p-2.5 left-[252.96px] top-[347px] absolute flex-col justify-start items-start gap-2.5 inline-flex">
-          <div className="Frame2 p-[4.70px] bg-gradient-to-l from-fuchsia-600 to-purple-400 rounded-md shadow border justify-center items-center gap-[4.70px] inline-flex">
+          <div className="Frame2 p-[4.70px] bg-gradient-to-l from-slate-700 to-slate-400 rounded-md shadow border justify-center items-center gap-[4.70px] inline-flex">
             <div className="Randomise text-white text-xs font-normal font-['Inter']">
               Randomise
             </div>
